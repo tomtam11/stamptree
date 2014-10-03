@@ -16,7 +16,8 @@ public:
 		key = el; left = l; right = r;
 	}
 	T key;
-	Node *left, *right;
+	Node *left;
+	Node *right;
 };
 
 template<class T>
